@@ -1,0 +1,10 @@
+{
+    "name": "personnel-information",
+    "version": "1.0.0",
+    "scripts": {
+        "start": "npx http-server -p 3001 -c-1 --cors -o"
+    },
+    "dependencies": {
+        "http-server": "^14.1.1"
+    }
+}

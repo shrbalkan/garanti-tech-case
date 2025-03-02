@@ -1,0 +1,48 @@
+[
+    {
+        "name": "Gökhan Türkmen",
+        "tckn": "29292992926",
+        "phone": "05322121212",
+        "birthPlace": "Kayseri",
+        "birthDate": "1990-01-01",
+        "personnels": [
+            {
+                "name": "Selim Yıldız",
+                "tckn": "14123123231",
+                "phone": "05321241234",
+                "birthPlace": "Adana",
+                "birthDate": "1995-03-04"
+            },
+            {
+                "name": "Orhan Işık",
+                "tckn": "41312124314",
+                "phone": "05431241232",
+                "birthPlace": "İstanbul",
+                "birthDate": "1992-06-07"
+            }   
+        ]   
+    },
+    {
+        "name": "Fatma Turunç",
+        "tckn": "51541561251",
+        "phone": "05324151346",
+        "birthPlace": "Samsun",
+        "birthDate": "1990-01-01",
+        "personnels": [
+            {
+                "name": "Ayşe Yılmaz",
+                "tckn": "12345678913",
+                "phone": "05431234567",
+                "birthPlace": "İstanbul",
+                "birthDate": "1994-02-05"
+            },
+            {
+                "name": "Mehmet Yılmaz",
+                "tckn": "12345678914",
+                "phone": "05434231244",
+                "birthPlace": "İstanbul",
+                "birthDate": "1995-03-04"
+            }   
+        ]   
+    }
+]
