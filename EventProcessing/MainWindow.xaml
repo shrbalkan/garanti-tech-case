@@ -1,0 +1,38 @@
+﻿<Window x:Class="EventSearching.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:EventSearching"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Button x:Name="buttonStart" Content="Yükleme ve Taramayı Başlat" HorizontalAlignment="Center" Margin="0,26,0,0" VerticalAlignment="Top" Width="501" Click="ButtonStart_Click" Height="76"/>
+        <Label x:Name="lblTimer" Content="Sayaç:" HorizontalAlignment="Left" Margin="298,107,0,0" VerticalAlignment="Top" Height="29" Width="51"/>
+        <ProgressBar x:Name="progressBarAdded" HorizontalAlignment="Center" Height="23" Margin="0,195,0,0" VerticalAlignment="Top" Width="498" Maximum="400" Foreground="#FFCA757D" Value="0"/>
+        <ProgressBar x:Name="progressBarProcessed" HorizontalAlignment="Center" Height="23" Margin="0,195,0,0" VerticalAlignment="Top" Width="498" Background="Transparent" BorderBrush="Transparent" BorderThickness="0" Maximum="400" Foreground="#FF1DC727" Value="0
+                     "/>
+        <Label Content="İlerleme:" HorizontalAlignment="Left" Margin="151,163,0,0" VerticalAlignment="Top"/>
+
+        <DataGrid Name="EventGridView" AutoGenerateColumns="False" Margin="150,234,470,24">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Event" Binding="{Binding Name}" Width="70"/>
+                <DataGridTextColumn Header="Öncelik" Binding="{Binding Priority}" Width="*"/>
+            </DataGrid.Columns>
+        </DataGrid>
+
+        <DataGrid Name="AlertGridView" AutoGenerateColumns="False" Margin="456,234,150,24">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Uyarı" Binding="{Binding Priority}" Width="70"/>
+                <DataGridTextColumn Header="Eventler" Binding="{Binding Events}" Width="*"/>
+            </DataGrid.Columns>
+        </DataGrid>
+        <Label x:Name="lblTimerVal" Content="" HorizontalAlignment="Left" Margin="400,110,0,0" VerticalAlignment="Top" Height="26" Width="58"/>
+        <ComboBox x:Name="cmbBoxTimeScale" HorizontalAlignment="Left" Margin="562,114,0,0" VerticalAlignment="Top" Width="79" SelectionChanged="cmbBoxTimeScale_SelectionChanged">
+            <ComboBoxItem Content="x1" Selector.IsSelected="True"/>
+            <ComboBoxItem Content="x10"/>
+            <ComboBoxItem Content="x100"/>
+        </ComboBox>
+
+    </Grid>
+</Window>
