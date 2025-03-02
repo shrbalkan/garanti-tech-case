@@ -1,0 +1,11 @@
+D:\Calisma\PostponedJobs\ÇalıştırmaMotoru\bin\Release\net8.0\ÇalıştırmaMotoru.deps.json
+D:\Calisma\PostponedJobs\ÇalıştırmaMotoru\bin\Release\net8.0\ÇalıştırmaMotoru.dll
+D:\Calisma\PostponedJobs\ÇalıştırmaMotoru\bin\Release\net8.0\ÇalıştırmaMotoru.pdb
+D:\Calisma\PostponedJobs\ÇalıştırmaMotoru\obj\Release\net8.0\ÇalıştırmaMotoru.GeneratedMSBuildEditorConfig.editorconfig
+D:\Calisma\PostponedJobs\ÇalıştırmaMotoru\obj\Release\net8.0\ÇalıştırmaMotoru.AssemblyInfoInputs.cache
+D:\Calisma\PostponedJobs\ÇalıştırmaMotoru\obj\Release\net8.0\ÇalıştırmaMotoru.AssemblyInfo.cs
+D:\Calisma\PostponedJobs\ÇalıştırmaMotoru\obj\Release\net8.0\ÇalıştırmaMotoru.csproj.CoreCompileInputs.cache
+D:\Calisma\PostponedJobs\ÇalıştırmaMotoru\obj\Release\net8.0\ÇalıştırmaMotoru.dll
+D:\Calisma\PostponedJobs\ÇalıştırmaMotoru\obj\Release\net8.0\refint\ÇalıştırmaMotoru.dll
+D:\Calisma\PostponedJobs\ÇalıştırmaMotoru\obj\Release\net8.0\ÇalıştırmaMotoru.pdb
+D:\Calisma\PostponedJobs\ÇalıştırmaMotoru\obj\Release\net8.0\ref\ÇalıştırmaMotoru.dll
