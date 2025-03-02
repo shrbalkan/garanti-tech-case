@@ -5,4 +5,4 @@
 ## Teknik Envanter 2 - Event Tarama
 [Event Tarama](EventProcessing/)
 ## Teknik Envanter 3 – Ertelenen İşler
-[Çalışan Bilgi Ekranı](PostponedJobs/)
+[Ertelenen İşler](PostponedJobs/)
